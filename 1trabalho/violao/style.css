@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: coolvetica;
+
+}
+
+body {
+    display: flex;
+    flex: 1 1 100vw;
+    flex-wrap: wrap;
+    background-color: rgba(167, 219, 215, 1);
+    align-items: center;
+    text-align: left;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    margin: 3px;
+    height: calc(100% - 106px);
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex: 1 1 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(35, 40, 53, 1);
+
+}
+
+footer h1 {
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex: 1 1 100vw;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(35, 40, 53, 1);
+
+}
+
+.interface {
+    padding: 0.6rem;
+    width: 100%;
+}
+
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    display: inline-block;
+    transition: .1s;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    font-weight: 500;
+}
+
+header a:hover {
+    color: rgba(167, 219, 215, 1);
+    transform: scale(1.05);
+}
+
+header .pages ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header .pages ul li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+
+header .logo a img {
+    width: 75px;
+    height: auto;
+    padding: 0;
+}
+
+header .login {
+    padding: 0 2rem;
+}
