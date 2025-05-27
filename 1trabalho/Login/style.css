@@ -54,3 +54,6 @@ main button{
     font-size: 15px;
     font-weight: 500;
 }
+#login:hover{
+    cursor: pointer;
+}

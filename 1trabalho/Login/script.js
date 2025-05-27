@@ -7,6 +7,12 @@ window.alert('o usuario é jotinha e a senha é jonataspw')
 
 login.addEventListener('click', fazerLogin)
 
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'Enter') {
+      fazerLogin();
+  }
+});
+
 user.addEventListener('focus', function() {
     user.style.borderColor = 'transparent';
     senha.style.borderColor = 'transparent';
